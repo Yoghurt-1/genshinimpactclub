@@ -1,0 +1,52 @@
+@font-face {
+    font-family: test;
+    src: url(zh-cn.ttf);
+}
+
+body {
+    background-size:cover;
+    background:
+}
+
+
+.con1 {
+    position:absolute;
+    overflow:hidden;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    top:0;
+    left:0;
+}
+
+
+.center {
+    position: absolute;
+    font-family: test;
+    text-align: center; 
+    font-size: 100px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.con2 {
+   display: flex;
+   padding: 16px;
+   gap: 8px;
+   background: transparent;
+}
+
+.con2 div {
+    font-family: test;
+    background: transparent;
+    font-size: 80px;
+    color: white;
+    flex: 1;
+    padding: 70px; 
+   
+
+}
+
+
